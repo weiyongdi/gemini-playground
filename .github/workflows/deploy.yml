@@ -37,8 +37,8 @@ jobs:
       - name: Upload to Deno Deploy
         uses: denoland/deployctl@v1
         with:
-          project: "andy-fantasticparty"
-          entrypoint: "src/deno_index.ts"
+          project: "weiyongdi-gemini-play-32"
+          entrypoint: "https://deno.land/std@0.217.0/http/file_server.ts"
           root: "build"
           
           
